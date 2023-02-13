@@ -52,7 +52,6 @@ def pegaHORA(h, turno):
 	return horas
 
 
-
 def pegaHORARIOS(lista):
 	retorno = []
 
@@ -89,6 +88,7 @@ def apresenta(horarios):
 h = str(input('Digite o horario: '))
 # h = '56T456'
 lista = h.split(' ')
+print(lista)
 horarios = pegaHORARIOS(lista)
 apresenta(horarios)
 
