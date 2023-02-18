@@ -85,11 +85,12 @@ def apresenta(horarios):
 	print('-' * 50)
 
 
-h = str(input('Digite o horario: '))
-# h = '56T456'
-lista = h.split(' ')
-print(lista)
-horarios = pegaHORARIOS(lista)
-apresenta(horarios)
+if __name__ == '__main__':
+	h = str(input('Digite o horario: '))
+	# h = '56T456'
+	lista = h.split(' ')
+	print(lista)
+	horarios = pegaHORARIOS(lista)
+	apresenta(horarios)
 
 
